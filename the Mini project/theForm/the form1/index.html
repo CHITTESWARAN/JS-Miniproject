@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .comp {
+            height: 120px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            background-color: blue;
+            color: white;
+            border: 1px solid black;
+        }
+
+        #thecontact {
+            width: 58%;
+            margin: 10% 23% 0 23%;
+        }
+
+        fieldset {
+            padding: 10px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .form-group>label{
+            margin-right:10px;
+          width: 118px;
+            
+
+
+        }
+        input:hover {
+            flex: 1;
+            border: 1px solid black;
+            background-color: whitesmoke;
+            border-radius: 4px;
+
+
+        }
+        .user1{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+    <div id="thecontact">
+        <div class="comp">
+            <h2>Contact the Company</h2>
+        </div>
+        <fieldset>
+            <legend>Contact Form</legend>
+            <form action="" id="thedata">
+                <div class="form-group">
+                    <label for="FirstName">First Name</label>
+                    <input type="text" id="FirstName" placeholder="Raju" value="">
+                </div>
+                <div class="form-group">
+                    <label for="LastName">Last Name</label>
+                    <input type="text" id="LastName" placeholder="Kavin" value="">
+                </div>
+                <div class="form-group">
+                    <label for="Password">Password</label>
+                    <input type="password" id="Password" value="">
+                </div>
+                <div class="form-group">
+                    <label for="Phone">Phone No</label>
+                    <input type="tel" id="Phone" value="">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" value="">
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </fieldset>
+    </div>
+    <div id="user1">
+        </div>
+        
+     <script src="acode.js"></script>
+</body>
+</html>

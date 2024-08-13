@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoList</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/4520334a43.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="col-5 m-auto mt-3">
+            <div class="card-header bg-dark text-white m-auto p-2 text-center mt-2 mb-2">
+               <h2>TodoList App</h2>
+            </div>
+            <div class="card-body">
+                <form  id="thetask" >
+                <div class="input-group mb-3 mt-2 mb-3">
+                    <input type="text"  id="username"class="form-control" placeholder="Enter you Task" aria-label="Username" aria-describedby="basic-addon1"value="">
+                  </div> 
+                  <button type="submit" class="btn btn-dark text-white mt-2 mb-3">Add Task</button> 
+                  <div id="savebtn" class="mt-3"></div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+        <div class="col-5 md-5 m-auto">
+            <ul class="list-group" id="task-list8">
+                <li style="background-color: grey;" class="list-group-item mb-2">
+                    <span>Add item</span>
+                    <button  id="Edit-task"class="float-end">
+                        <i class="fa-solid fa-pen"></i>
+                       
+                    </button>
+                    <button id="delete-task"class="float-end me-2">
+                        <i class="fa-solid fa-trash-can"></i>
+                    </button>
+                </li>
+                
+            </ul>
+
+                
+            </div>
+        </div>
+           
+
+        </div>
+    </div>
+    <script src="acode.js"></script>
+</body>
+</html>

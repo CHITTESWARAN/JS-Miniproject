@@ -1,0 +1,2 @@
+theForm=document.getElementById("form");
+

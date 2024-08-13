@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    let arr=[1,2,3,4,5,1,2,4,5,10,1,2];
+    let num1=[];
+    let val=[];
+    
+    let d=[];
+    for (let j = 0; j < arr.length - 1; j++) 
+    {
+    for (let k = 0; k < arr.length - 1 - j; k++) 
+    {
+        if (arr[k] > arr[k + 1]) {
+            let temp = arr[k];
+            arr[k] = arr[k + 1];
+            arr[k + 1] = temp;
+        }
+    }
+}
+   console.log(arr);
+
+    for(let i=0;i<arr.length;i++)
+   {
+
+    if(arr[i]===arr[i+1])
+   {
+    num1.push(arr[i+1]);
+    val.push(arr[i]);
+
+   }
+
+   else if(arr[i-1]!=arr[i]&& arr[i+1]!=arr[i])
+   {
+    d.push(arr[i]);
+    val.push(arr[i]);
+   }
+   
+   }
+   console.log(num1);
+   console.log(val);
+   console.log(d);
+   </script>
+</body>
+</html>
+      

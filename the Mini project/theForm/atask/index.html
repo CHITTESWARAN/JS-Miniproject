@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the task</title>
+</head>
+<body>
+    <h1>the task</h1>
+<h4>if you want you donate you can donate it in the athe box</h4> 
+
+
+    <button id="donateAuthors">DonateAuthors</button>
+    <form action=""  id="donateform" style="display: none;">
+<label for="aamount" >Enter the a amount</label>
+<input type="number" name="aamount" id="aamount" required style="padding: 10px;" min="1" value="1" step="1">
+<button  onclick="Donsi()">Donate</button>
+
+</form>
+
+<script>
+
+    let donateauthorers=document.getElementById("donateAuthors");
+    let donateform=document.getElementById("donateform");
+    donateauthorers.addEventListener("click",(e)=>{
+        donateform.style.display="block";
+        
+    })
+    let aamount=document.getElementById("aamount");
+    function Donsi()
+    {
+         
+        alert(`Thankyou for donating ₹${aamount.value}`)
+        // 
+        location.reload();
+
+    }
+</script>   
+</body>
+</html>
