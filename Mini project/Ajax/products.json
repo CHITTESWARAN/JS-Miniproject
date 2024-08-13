@@ -1,0 +1,25 @@
+{
+    
+        "arrayProducts": [
+            {
+                "id": 101,
+                "img": "https://sp.yimg.com/ib/th?&id=ODL.a3d034324cf1c921ffb7794c075fbd23&w=116&h=146&c=4&dpr=2&rs=1",
+                "price": "24.6",
+                "qtn": "1"
+            },
+            {
+                "id": 102,
+                "img": "https://sp.yimg.com/ib/th?id=OIP.2d12ebcf2a9d6b24546a7c3bcd2fbcde&w=116&h=146&c=4&dpr=2&rs=1",
+                "price": "29.99",
+                "qtn": "2"
+            },
+            {
+                "id": 103,
+                "img": "https://sp.yimg.com/ib/th?id=OIP.7f34abcf35d6b24b54f3c7bcdc3f8bc3&w=116&h=146&c=4&dpr=2&rs=1",
+                "price": "39.99",
+                "qtn": "1"
+            }
+        ]
+    
+    
+}

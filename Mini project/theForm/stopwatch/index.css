@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:content-box;
+ }
+ #header{
+    font-weight: 900;
+    color: black;
+    font-style: normal;
+    text-align: center;
+ }
+ .circle{
+    margin:100px 400px 86px 400px;
+    padding: 200px;
+    background-color: blue;
+    width:20%;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 70%;
+    font-size: 18px;
+ }
+ .button{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 70px;
+    color:black;
+ }
+ th,td{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding:14px;
+ }
+.val{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color:antiquewhite;
+    justify-content: space-around;
+    margin-left: 10px;
+    padding:35px;
+   
+}
+#start-btn,#pause-btn,#stop-btn{
+  padding: 14px;
+  border-radius: 10px;
+  font-size: 15px;
+  background-color: aliceblue;
+  cursor: pointer;
+  color: black;
+}
